@@ -1,0 +1,63 @@
+ /*Body*/
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #192b53;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+}
+
+.Profile {
+    text-align: center;
+}
+
+img[data-testid="slackDisplayImage"] {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+    background-color: #ebeace;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(8, 138, 67, 0.3);
+    text-align: center;
+}
+
+h1[data-testid="slackUsername"] {
+    font-size: 30px;
+    margin: 0;
+    color: #333;
+}
+
+p[data-testid="currentDayOfTheWeek"] {
+    font-size: 20px;
+    color: #5a093b;
+}
+
+p[data-testid="currentUTCTime"],
+p[data-testid="myTrack"] {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a[data-testid="githubURL"] {
+    text-decoration: none;
+    color: #09b325;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+a[data-testid="githubURL"]:hover {
+    color: #a80909;
+}
